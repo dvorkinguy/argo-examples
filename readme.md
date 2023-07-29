@@ -28,6 +28,7 @@ kubectl port-forward svc/argocd-server -n argocd 8080:443
 argocd login 127.0.0.1:8080
 ```
 
+
 # Creating an Application using ArgoCD CLI:
 ```
 argocd app create webapp-kustom-prod \
